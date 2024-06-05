@@ -37,6 +37,7 @@ public class Dev {
         if (conteudo.isPresent()) {
             conteudosConcluidos.add(conteudo.get());
             conteudosInscritos.remove(conteudo.get());
+            System.out.println(conteudosConcluidos.size());
         }
         else {
             System.err.println("Você não esta matriculado em nenhum conteudo");
